@@ -2,6 +2,7 @@ package com.hatenablog.rikisha.example.buttonsample;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -10,6 +11,8 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity implements OnClickListener {
 
+	private static final String TAG = "MainActivity";
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -30,11 +33,9 @@ public class MainActivity extends Activity implements OnClickListener {
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
 		Button button = (Button) v;
-		// 画面上に通知を表示する
-        Toast.makeText(MainActivity.this, "onClick()",
-                Toast.LENGTH_SHORT).show();
         // ボタンの表示文字をButtonからClick!に変更する
         button.setText("Click!");
+        Log.d(TAG, "Button Clicked");
 	}
 
 }
