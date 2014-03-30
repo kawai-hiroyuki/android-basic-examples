@@ -6,7 +6,7 @@ import android.util.Log;
 import android.view.Menu;
 
 public class MainActivity extends Activity {
-	// ƒ^ƒO–¼‚ÍƒNƒ‰ƒX–¼‚Éİ’è‚·‚é‚Ì‚ªˆê”Ê“I
+	// ã‚¿ã‚°ã«ã¯ã‚¯ãƒ©ã‚¹åã«ã™ã‚‹ã®ãŒä¸€èˆ¬çš„
 	private static final String TAG = "MainActivity";
 	
 	@Override
@@ -14,12 +14,12 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		int hoge = 10;
-		Log.println(Log.ASSERT, TAG, "’v–½“I‚ÈƒGƒ‰[");
-		Log.e(TAG, "Log.e‚ÅƒƒOo—Í" + hoge);		// ƒGƒ‰[ (ERROR)
-		Log.w(TAG, "Log.w‚ÅƒƒOo—Í" + hoge);		// Œx (WARN)
-		Log.i(TAG, "Log.i‚ÅƒƒOo—Í" + hoge);		// î•ñ (INFO)
-		Log.d(TAG, "Log.d‚ÅƒƒOo—Í" + hoge);		// ƒfƒoƒbƒO—p (DEBUG)
-		Log.v(TAG, "Log.v‚ÅƒƒOo—Í" + hoge);		// Ú×î•ñ (VERBOSE)
+		Log.println(Log.ASSERT, TAG, "è‡´å‘½çš„ãªã‚¨ãƒ©ãƒ¼");
+		Log.e(TAG, "Log.eã§å‡ºåŠ›" + hoge);		// ã‚¨ãƒ©ãƒ¼ (ERROR)
+		Log.w(TAG, "Log.wã§å‡ºåŠ›" + hoge);		// è­¦å‘Š (WARN)
+		Log.i(TAG, "Log.iã§å‡ºåŠ›" + hoge);		// æƒ…å ± (INFO)
+		Log.d(TAG, "Log.dã§å‡ºåŠ›" + hoge);		// ãƒ‡ãƒãƒƒã‚° (DEBUG)
+		Log.v(TAG, "Log.vã§å‡ºåŠ›" + hoge);		// è©³ç´°æƒ…å ± (VERBOSE)
 
 	}
 
