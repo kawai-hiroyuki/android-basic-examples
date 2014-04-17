@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ExternalCameraSample</string>
+    <string name="action_settings">Settings</string>
+    <string name="textLabel">ボタンを押すとカメラアプリが起動します。</string>
+	<string name="buttonLabel">起動</string>
+	
+</resources>
