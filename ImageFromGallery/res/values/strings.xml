@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ImageFromGallery</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="labelTextView">ボタンを押すとギャラリーが表示されます</string>
+    <string name="labelButton">起動</string>
+
+</resources>
